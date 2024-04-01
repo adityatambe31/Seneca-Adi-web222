@@ -1,0 +1,65 @@
+.product-card {
+  width: 100px;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px #ccc;
+}
+
+/* CSS styles for WEB222 Assignment 04 */
+
+/* Global body styles */
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px 20px 30px;
+  padding: 10px 20px 20px 20px;
+  max-width: 80vw;
+  background-color: #ffffff;
+}
+
+/* Menu styles */
+#menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Product card styles */
+.product-card {
+  width: 300px;
+  margin: 10px 10px 10px 5px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* Image styles */
+.product-card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Title styles */
+.product-card p:first-of-type {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+/* Description styles */
+.product-card p:nth-of-type(2) {
+  font-size: 0.9em;
+  /* Add specific styles if needed */
+}
+
+/* Price styles */
+.product-card p:nth-of-type(3) {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
