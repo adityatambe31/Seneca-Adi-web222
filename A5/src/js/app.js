@@ -8,13 +8,12 @@
  *
  * Please update the following with your information:
  *
- *      Name:       Aditya Mahesh Tambe
- *      Student ID: 171969223
- *      Date:       15/03/2024
+ *      Name:       Daksh Chaudhary
+ *      Student ID: 155130222
+ *      Date:       March 14th, 2024
  */
 
 // All of our data is available on the global `window` object.
-// Create local variables to work with it in this file.
 var body = document.body;
 body.style.display = "flex";
 body.style.flexDirection = "column";
@@ -32,6 +31,9 @@ console.log({ products, categories }, "Store Data");
 window.activeCategoryID = "c1";
 // Get the menu element and apply CSS styles to make it a flex container
 var menu = document.getElementById("menu");
+menu.style.display = "flex";
+menu.style.flexDirection = "row";
+menu.style.flexWrap = "wrap";
 
 window.categories.forEach((element) => {
   var buttonEle = document.createElement("button");
@@ -58,9 +60,17 @@ window.render = function () {
   productsToRender.forEach((element) => {
     var catProds = document.getElementById("category-products");
 
+    // Apply CSS styles to make catProds a flex container
+    catProds.style.display = "flex";
+    catProds.style.flexDirection = "row";
+    catProds.style.flexWrap = "wrap";
+    catProds.style.justifyContent = "space-around";
+
     if (element.discontinued === false) {
       const card = document.createElement("div");
       card.classList.add("product-card");
+      // card.style =
+      //   "width: 300px; margin: 10px 10px 10px 5px; padding: 10px 10px 10px 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #ffffff; boxShadow: 0 0 10px #ccc;";
 
       const img = document.createElement("img");
       img.src = element.imageUrl;

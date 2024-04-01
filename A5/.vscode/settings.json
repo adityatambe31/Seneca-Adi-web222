@@ -8,5 +8,7 @@
     "source.fixAll": "explicit"
   },
   "files.eol": "\n",
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "git.ignoreLimitWarning": true,
+  "liveServer.settings.port": 5501
 }

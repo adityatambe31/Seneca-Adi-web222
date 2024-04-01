@@ -21,7 +21,7 @@ window.products = [
     price: 379.99,
     discontinued: false,
     categories: ["c1"],
-    imageUrl: ".https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cdw.ca%2Fproduct%2Fmsi-nvidia-geforce-rtx-3090-graphic-card-24-gb-gddr6x%2F6433110&psig=AOvVaw3W8Jozy9jdeFoxM8JtulDd&ust=1711997566159000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIi9iIiWn4UDFQAAAAAdAAAAABAI"
+    imageUrl: "https://webobjects2.cdw.com/is/image/CDW/6433110?$product-detail$"
   },
 
   {
@@ -32,7 +32,7 @@ window.products = [
     price: 299.99,
     discontinued: false,
     categories: ["c1"],
-    imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.ca%2FGraphics-DisplayPort-Bearings-Military-Grade-Certification%2Fdp%2FB099ZC8H3G&psig=AOvVaw2szeSjmphId39qO40UceFN&ust=1711997517401000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCZ6fCVn4UDFQAAAAAdAAAAABAE"
+    imageUrl: "https://m.media-amazon.com/images/I/816BVTpUdKL.__AC_SX300_SY300_QL70_ML2_.jpg"
   },
 
   {
@@ -43,7 +43,7 @@ window.products = [
     price: 249.99,
     discontinued: false,
     categories: ["c1"],
-    imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.ca%2FGraphics-DisplayPort-Bearings-Military-Grade-Certification%2Fdp%2FB099ZC8H3G&psig=AOvVaw2szeSjmphId39qO40UceFN&ust=1711997517401000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCZ6fCVn4UDFQAAAAAdAAAAABAE"
+    imageUrl: "https://m.media-amazon.com/images/I/816BVTpUdKL._AC_SX679_.jpg"
   },
 
   {
@@ -54,7 +54,7 @@ window.products = [
     price: 199.99,
     discontinued: false,
     categories: ["c1"],
-    imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.ca%2FGigabyte-GeForce-Graphics-WINDFORCE-GV-N3060GAMING%2Fdp%2FB0C88SM4LK&psig=AOvVaw0rCZYUPKqyIWbkLOqFPTzE&ust=1711997449142000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCYx9CVn4UDFQAAAAAdAAAAABAT"
+    imageUrl: "https://m.media-amazon.com/images/I/61nCY30R4iL.__AC_SY300_SX300_QL70_ML2_.jpg"
   },
 
   {
@@ -69,17 +69,6 @@ window.products = [
   },
 
   {
-    id: "P6",
-    title: "NVIDIA GeForce RTX 3040",
-    description:
-      "GeForce RTX 30 Series Boost Clock Speed: 1205 MHz GPU Memory Size: 8 GB Cooling System: Fan.",
-    price: 119.99,
-    discontinued: false,
-    categories: ["c1"],
-    imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.ca%2FASUS-NVIDIA-GeForce-Gaming-Graphics%2Fdp%2FB09R9L6J71&psig=AOvVaw0tmRmV4MU1qLkevsAvCCMO&ust=1711997304353000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIjsoouVn4UDFQAAAAAdAAAAABAR"
-  },
-
-  {
     id: "P7",
     title: "NVIDIA GeForce RTX 4090",
     description:
@@ -87,7 +76,7 @@ window.products = [
     price: 1399.99,
     discontinued: false,
     categories: ["c1"],
-    imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.ca%2FMSI-GeForce-4090-Gaming-Graphics%2Fdp%2FB09YCLG5PB&psig=AOvVaw3CZHPc1HVTRVDrA0J_qchI&ust=1711997650103000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJDtirCWn4UDFQAAAAAdAAAAABAI"
+    imageUrl: "https://m.media-amazon.com/images/I/81KR0fO8WgL._AC_SX679_.jpg"
   },
 
   {
@@ -98,7 +87,7 @@ window.products = [
     price: 599.99,
     discontinued: false,
     categories: ["c1"],
-    imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.ca%2FMSI-Gaming-GDDR6X-Express-Video%2Fdp%2FB0BL668N1X&psig=AOvVaw1RKPMu-twiIuohuWPSOwK_&ust=1711997669466000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCID5y7qWn4UDFQAAAAAdAAAAABAE"
+    imageUrl: "https://m.media-amazon.com/images/I/71kWtif0f-L.__AC_SY300_SX300_QL70_ML2_.jpg"
   },
 
   {
@@ -109,7 +98,7 @@ window.products = [
     price: 1399.99,
     discontinued: false,
     categories: ["c1"],
-    imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cdw.ca%2Fproduct%2Fpny-geforce-rtx-4070-12gb-verto-dual-fan-edition-graphics-card-geforc%2F7528772&psig=AOvVaw2nmtoRW3sexjuV9V0v_IP-&ust=1711997689794000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOD6pcOWn4UDFQAAAAAdAAAAABAP"
+    imageUrl: "https://webobjects2.cdw.com/is/image/CDW/7528772?$product-detail$"
   },
 
   {
@@ -120,7 +109,8 @@ window.products = [
     price: 1299.99,
     discontinued: false,
     categories: ["c2"],
-    imageUrl: "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/alienware/aw3423dwf/media-gallery/monitor-alienware-aw3423dwf-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=476&wid=566&qlt=100,1&resMode=sharp2&size=566,476&chrss=full"
+    imageUrl:
+      "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/alienware/aw3423dwf/media-gallery/monitor-alienware-aw3423dwf-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=476&wid=566&qlt=100,1&resMode=sharp2&size=566,476&chrss=full"
   },
 
   {
@@ -131,7 +121,8 @@ window.products = [
     price: 799.99,
     discontinued: false,
     categories: ["c2"],
-    imageUrl: "https://media.us.lg.com/transform/b21cc38d-b369-4802-9dc4-188827f29155/Monitor-UltraGear_27GR93U-B_KV_features_900x600"
+    imageUrl:
+      "https://media.us.lg.com/transform/b21cc38d-b369-4802-9dc4-188827f29155/Monitor-UltraGear_27GR93U-B_KV_features_900x600"
   },
 
   {
@@ -142,7 +133,8 @@ window.products = [
     price: 2698.99,
     discontinued: false,
     categories: ["c2"],
-    imageUrl: "https://images.samsung.com/is/image/samsung/p6pim/ca/ls57cg952nnxza/gallery/ca-odyssey-neo-g9-g95nc-ls57cg952nnxza-537798071?$730_584_PNG$"
+    imageUrl:
+      "https://images.samsung.com/is/image/samsung/p6pim/ca/ls57cg952nnxza/gallery/ca-odyssey-neo-g9-g95nc-ls57cg952nnxza-537798071?$730_584_PNG$"
   },
 
   {
@@ -157,17 +149,6 @@ window.products = [
   },
 
   {
-    id: "P14",
-    title: "Asus ROG Strix Scar 16 (2023)",
-    description:
-      "The best gaming laptop overall. The Asus ROG Strix Scar 16 is the best RTX 40-Series gaming laptop we've tested so far, making it the best rig on the shelves.",
-    price: 2130,
-    discontinued: false,
-    categories: ["c3"],
-    imageUrl: ".https://www.google.com/url?sa=i&url=https%3A%2F%2Frog.asus.com%2Farticles%2Frog-gaming-laptops%2Fleave-your-opponents-in-the-dust-with-the-brand-new-2023-rog-strix-laptop-lineup%2F&psig=AOvVaw3rqMxmAYLgwFmbrIns5NVi&ust=1711997845855000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPD1s42Xn4UDFQAAAAAdAAAAABAJ"
-  },
-
-  {
     id: "P15",
     title: "Razer Blade 15 (2022)",
     description:
@@ -175,7 +156,8 @@ window.products = [
     price: 1586,
     discontinued: false,
     categories: ["c3"],
-    imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pcgamer.com%2Frazer-blade-15-review%2F&psig=AOvVaw04eLelGXHxOoO9eN0lJZ5_&ust=1711997871072000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCdt5mXn4UDFQAAAAAdAAAAABAM"
+    imageUrl:
+      "https://assets2.razerzone.com/images/pnx.assets/a1ee4c5a780a401444be898fe93ade69/thumbnail-blade15-new-model.webp"
   },
 
   {
@@ -186,7 +168,8 @@ window.products = [
     price: 3999.99,
     discontinued: false,
     categories: ["c3"],
-    imageUrl: ".https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/alienware-notebooks/alienware-m18-amd/media-gallery/amd-hd-perkey-dual-display-port-black/notebook-alienware-m18-amd-hd-perkey-dual-display-port-black-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=625&qlt=100,1&resMode=sharp2&size=625,402&chrss=full"
+    imageUrl:
+      "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/alienware-notebooks/alienware-m18-amd/media-gallery/amd-hd-perkey-dual-display-port-black/notebook-alienware-m18-amd-hd-perkey-dual-display-port-black-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=625&qlt=100,1&resMode=sharp2&size=625,402&chrss=full"
   },
 
   {
@@ -208,7 +191,7 @@ window.products = [
     price: 1000,
     discontinued: false,
     categories: ["c4"],
-    imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.ca%2FApple-2023-MacBook-Laptop-chip%2Fdp%2FB0C76D4RWJ&psig=AOvVaw24H5i_K-KnjnP3WMDzPQd7&ust=1711998025501000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOilj-OXn4UDFQAAAAAdAAAAABAE"
+    imageUrl: "https://m.media-amazon.com/images/I/81Fm0tRFdHL._AC_SX679_.jpg"
   },
 
   {
@@ -219,7 +202,7 @@ window.products = [
     price: 2099,
     discontinued: false,
     categories: ["c4"],
-    imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.ca%2FApple-MacBook-Laptop-8%25E2%2580%2591core-10%25E2%2580%2591core%2Fdp%2FB0CM5JV268&psig=AOvVaw1IrYUI4Nn-RN6wBxGOvDJj&ust=1711998041338000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKj9xeqXn4UDFQAAAAAdAAAAABAE"
+    imageUrl: "https://m.media-amazon.com/images/I/61lsexTCOhL._AC_SX679_.jpg"
   },
 
   {
@@ -230,6 +213,7 @@ window.products = [
     price: 3299,
     discontinued: false,
     categories: ["c4"],
-    imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.apple.com%2Fca%2Fnewsroom%2F2023%2F10%2Fapple-unveils-new-macbook-pro-featuring-m3-chips%2F&psig=AOvVaw2tiBGlXSV-xPVH9I9iCRk2&ust=1711998053788000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjItfCXn4UDFQAAAAAdAAAAABAE"
+    imageUrl:
+      "https://www.apple.com/newsroom/images/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/article/Apple-MacBook-Pro-2up-231030_Full-Bleed-Image.jpg.medium_2x.jpg"
   }
 ];
