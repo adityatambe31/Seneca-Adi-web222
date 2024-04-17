@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB222 - Final Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <section id="top-section">
+        <img src="https://media.licdn.com/dms/image/D4E03AQE5Ueh4tRrN1w/profile-displayphoto-shrink_400_400/0/1681115967293?e=1718236800&v=beta&t=PtJ8pqLac6-ZsA0ropd_iQvru-IxGET2-3zYy_rs_sw" alt="Your Image">
+        <h1>Aditya Mahesh Tambe</h1>
+        <p>Web Developer | SQL | C | C++ | Java | Python Programmer | DSA | Student at Seneca College | Studying CPA | Ontario, Canada.</p>
+        <a href="./AdityaMaheshTambe CV.pdf" id="resume-button" download>Resume</a>
+        <a href="#contact-form-section" id="contact-form-button">Contact Me</a>
+    </section>
+
+    <!-- Infographic Section -->
+    <section id="infographic-section">
+        <div id="about-me">
+            <div id="about-heading">About Me and Academic Honesty</div>
+            <p id="academic-statement">
+                I am a committed and driven computer science student at Seneca Polytechnic, with plans to graduate in 2026. I am enthusiastic about exploring algorithms, programming languages, and advanced technologies with the goal of making a meaningful contribution to the field of computer science. With an all-encompassing curriculum that focuses on both theoretical understanding and practical abilities, I am prepared to succeed in the continuously changing tech industry. My passion covers different areas of computer science, specifically focusing on software development and artificial intelligence. Excited to take on fresh challenges, I proactively keep up with industry trends, consistently enhancing my knowledge. Having successfully worked on creative projects and addressing practical issues, I excel in environments that promote collaboration and skill development. I am excited about networking with people who share my interests and professionals in the tech field to discover the numerous opportunities available. Come, connect, exchange thoughts, and start a path to achieve greatness with me! I am a committed and driven Computer Science student enrolled at Seneca Polytechnic, on track to graduate in 2026. I am enthusiastic about exploring the complexities of algorithms, coding languages, and advanced technologies, with the goal of creating a substantial influence in the computer science industry. With a curriculum that covers both theoretical knowledge and practical skills extensively, I am well-prepared to succeed in the constantly changing tech industry. My passion encompasses different areas of computer science, especially software development and artificial intelligence. I am enthusiastic about taking on fresh opportunities, keeping up with the latest industry developments, and continuously enhancing my knowledge. By working on cutting-edge projects and addressing practical issues, I excel in settings that promote collaboration and learning. I am excited to engage with similar individuals and experts in the field to discover the numerous opportunities in the tech world. Let's connect, exchange ideas, and start a successful journey together!<br></p> <p>I declare that my assessment is wholly my own work in accordance with Seneca
+                Academic Policy. No part of this assessment has been copied manually or electronically from any other
+                source (including web sites) except for the information supplied by the WEB222 instructors and/or made
+                available in this assessment for my use. I also declare that no part of this assignment has been
+                distributed to other students.</p>
+            <p><b>Date: </b><span id="current-date"></span></p>
+        </div>
+        <div id="basic-information">
+            <h2>Basic Information</h2>
+            <p>Course: <span id="course">Web Programming Principles (WEB222)</span></p>
+            <p>Section: <span id="section">ZCC</span></p>
+            <p>Professor: <span id="Professor">Mark Meritt</span></p>
+            <p>Email: <a href="mailto:amtambe@myseneca.ca" id="email-link">amtambe@myseneca.ca</a></p>
+        </div>
+    </section>
+    <!-- Education Section -->
+    <section id="education-section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <div class="degree">Adv Diploma</div>
+            <div class="info">
+                <p><a href="https://www.senecapolytechnic.ca/programs/fulltime/CPA.html" target="_blank"><b>Seneca Polytechnic @ SIA </b></a></p>
+                <p>Computer Programming and Analysis</p>
+                <p>2023-2026</p>
+            </div>
+        </div>
+        <div class="education-item">
+            <div class="degree">High School</div>
+            <div class="info">
+                <p><a href="https://school.careers360.com/schools/the-icon-public-school-ahmednagar" target="_blank"><b>Icon Public School</b></a></p>
+                <p>PCM Science</p>
+                <p>2020-2022</p>
+                <br>
+            </div>
+    </section>
+
+
+    <!-- Contact Form Section -->
+    <section id="contact-form-section">
+        <h2>Contact me</h2>
+        <form id="contact-form" action="https://httpbin.org/post" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="city">City:</label>
+            <input list="cities" id="city" name="city" required>
+            <datalist id="cities">
+                <option value="Toronto">
+                <option value="Mississauga">
+                <option value="Brampton">
+                <option value="Hamilton">
+                <option value="Markham">
+                <option value="Vaughan">
+                <option value="Oakville">
+                <option value="Burlington">
+                <option value="Richmond Hill">
+                <option value="Scarborough">
+                <option value="North York">
+            </datalist>
+
+            <label for="postal-code">Postal Code:</label>
+            <input type="text" id="postal-code" name="postal-code" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]"
+                required>
+
+            <label for="reason">Reason for contact:</label>
+            <div id="reason">
+                <input type="radio" id="reason1" name="reason" value="Inquiry">
+                <label for="reason1">Inquiry</label><br>
+
+                <input type="radio" id="reason2" name="reason" value="Feedback">
+                <label for="reason2">Feedback</label><br>
+
+                <input type="radio" id="reason3" name="reason" value="Complaint">
+                <label for="hiring-rate">Hiring Rate:</label>
+        <input type="number" id="hiring-rate" name="hiring-rate" placeholder="Enter your rate per hour" min="0" step="0.01" required><br>
+            </div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

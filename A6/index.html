@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project Web222</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://media.licdn.com/dms/image/D4E03AQE5Ueh4tRrN1w/profile-displayphoto-shrink_800_800/0/1681115967293?e=1718236800&v=beta&t=XsHAKmQ-dVNdNI3OqsIQQXoVtKYLzOuT8F_mwvTLtaI" alt="Aditya Mahesh Tambe" class="profile-img">
+        <h1 class="title">Future Web Developer</h1>
+        <div class="links">
+          <a href="your_resume.pdf" download><i class="fas fa-file-pdf"></i> Resume</a>
+          <a href="#contact"><i class="fas fa-envelope"></i> Contact Me</a>
+        </div>
+      </div>
+    
+
+
+    <footer>
+        <h2>About Me and Academic Honesty</h2>
+
+        <p>Age : 20 <br> Email: amtambe@myseneca.ca <br> Language: English, Marathi, Hindi <br> Class Section: ZCC<br> Student ID: 171969223 <br> <b>Instructor: Mark Merit Anthony <br>
+        </p> <br>
+        <p>I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy.
+        No part of this assessment has been copied manually or electronically from any other source
+        (including web sites) except for the information supplied by the WEB222 instructors and / or
+        made available in this assessment for my use. I also declare that no part of this assignment has
+        been distributed to other students</b></p>
+    </footer>
+    
+        <p>Copyright &copy; 2021 - All Rights Reserved</p>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm" action="#" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required><br>
+              
+              <label for="email">Email Address:</label>
+              <input type="email" id="email" name="email" required><br>
+              
+              <label for="address">Address:</label>
+              <input type="text" id="address" name="address" required><br>
+              
+              <label for="city">City:</label>
+              <input type="text" id="city" name="city" list="cities" required>
+              <datalist id="cities">
+                <option value="Toronto">
+                <option value="Vancouver">
+                <option value="Montreal">
+                <!-- Add more common Canadian cities here -->
+              </datalist><br>
+              
+              <label for="postalCode">Postal Code:</label>
+              <input type="text" id="postalCode" name="postalCode" pattern="[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d" required><br>
+              
+              <label>Regarding:</label><br>
+              <input type="radio" id="question" name="subject" value="Question" required>
+              <label for="question">Question</label><br>
+              
+              <input type="radio" id="comment" name="subject" value="Comment" required>
+              <label for="comment">Comment</label><br>
+              
+              <input type="radio" id="hiring" name="subject" value="Hiring" required>
+              <label for="hiring">Hiring</label><br>
+              
+              <div id="hourlyRate" style="display:none;">
+                <label for="rate">Hourly Rate:</label>
+                <input type="number" id="rate" name="rate" step="0.01" min="0" required><br>
+              </div>
+              
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message" rows="5" required></textarea><br>
+              
+              <!-- Additional input control -->
+              <label for="additional">Additional Info:</label>
+              <input type="text" id="additional" name="additional"><br>
+              
+              <input type="submit" value="Submit">
+            </form>
+          </section>
+          
+    
+</body>
+</html>
